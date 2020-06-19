@@ -1,0 +1,15 @@
+//Cálculo de IMC
+
+const nome = 'Carlos';
+const peso = '110';
+const altura = '1.88';
+const sexo = 'masculino';
+
+const imc = peso / (altura * altura);
+
+if (imc >= 30) {
+        console.log(`Carlos você está acima do peso`);
+         } else {
+           console.log('Carlos você não está acima do peso');
+}
+
